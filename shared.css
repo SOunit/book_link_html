@@ -34,6 +34,14 @@ body {
   align-items: center;
   background-color: #2ddf5c;
   padding: 5px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+main {
+  margin-top: 43px;
 }
 
 .main-header__brand {

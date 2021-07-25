@@ -21,3 +21,46 @@ section {
   z-index: -1;
   filter: grayscale(0.75);
 }
+
+.section__title {
+  text-align: center;
+}
+
+#item-search input,
+#item-search select,
+#item-search label {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+#item-search label {
+  font-weight: bold;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+#item-search input:focus,
+#item-search select:focus {
+  outline: none;
+  border-color: #0e4f1f;
+  background-color: #d8f3df;
+}
+
+#item-search button {
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+}
+
+@media (min-width: 40rem) {
+  #item-search input,
+  #item-search select,
+  #item-search label {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

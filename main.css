@@ -54,19 +54,30 @@
   display: flex;
   border-bottom: 1px solid var(--light-grey);
   padding: 0.5rem;
+  max-width: 50rem;
+  margin: 0 auto;
 }
 
 .item-result img {
-  width: 20%;
+  height: 10rem;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .item-result__details {
   margin: 0 1rem;
+  width: 100%;
 }
 
 .item-result__title {
   font-weight: bold;
+}
+
+.item-result__details .button {
+  margin: 0 auto;
+}
+
+.section-title {
+  text-align: center;
 }
 
 @media (min-width: 40rem) {

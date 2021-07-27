@@ -39,6 +39,11 @@ main {
   border-color: rgb(255, 68, 68);
 }
 
+.follow-button {
+  background-color: rgb(29, 161, 242);
+  border-color: rgb(29, 161, 242);
+}
+
 .button:hover,
 .button:active {
   color: #0e4f1f;

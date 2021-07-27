@@ -88,6 +88,28 @@
   margin: 0 auto;
 }
 
+.user-result__details {
+  margin: 0 1rem;
+  width: 100%;
+}
+
+#user-result button {
+  margin: 0.2rem auto;
+}
+
+#user-result p {
+  margin: 0.2rem 0;
+}
+
+.user-result__actions {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.user-result__actions button {
+  display: inline-block;
+}
+
 @media (min-width: 40rem) {
   #item-search section {
     width: 80%;

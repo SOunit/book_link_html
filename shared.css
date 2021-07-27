@@ -2,14 +2,24 @@
   box-sizing: border-box;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
   color: #333;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: fit-content(3rem) auto;
+  grid-template-areas: 'header' 'main';
 }
 
 main {
   margin-top: 3rem;
+  grid-area: main;
 }
 
 .button {
@@ -42,6 +52,7 @@ main {
   padding: 0.5rem;
   position: fixed;
   width: 100%;
+  min-height: 3rem;
   top: 0;
   left: 0;
 }

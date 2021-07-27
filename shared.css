@@ -34,6 +34,11 @@ main {
   cursor: pointer;
 }
 
+.delete-button {
+  background-color: rgb(255, 68, 68);
+  border-color: rgb(255, 68, 68);
+}
+
 .button:hover,
 .button:active {
   color: #0e4f1f;

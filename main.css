@@ -80,6 +80,14 @@
   text-align: center;
 }
 
+.user-search__form {
+  margin: 1rem;
+}
+
+.user-search__form button {
+  margin: 0 auto;
+}
+
 @media (min-width: 40rem) {
   #item-search section {
     width: 80%;

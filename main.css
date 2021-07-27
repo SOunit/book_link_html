@@ -60,10 +60,29 @@
   margin: 0;
 }
 
+.item-result {
+  position: relative;
+  /* overflow: hidden; */
+}
+
 .item-result img {
   width: 100%;
   border-radius: 8px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.item-result__selected-sign {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: rgb(255, 255, 255, 0.9);
+  background-color: rgba(255, 27, 104, 0.5);
+  padding: 1rem 0.3rem;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.5rem;
+  width: 100%;
 }
 
 @media (min-width: 40rem) {

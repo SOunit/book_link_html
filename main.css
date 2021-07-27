@@ -1,6 +1,6 @@
-section {
+#search section {
   background-color: rgba(255, 255, 255, 0.75);
-  width: 80%;
+  width: 90%;
   margin: 1rem auto;
   border-radius: 16px;
   padding: 1rem;
@@ -54,7 +54,7 @@ section {
 .item-results {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 0.3rem;
+  grid-gap: 0.8rem;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -63,9 +63,14 @@ section {
 .item-result img {
   width: 100%;
   border-radius: 8px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 40rem) {
+  #search section {
+    width: 80%;
+  }
+
   #item-search input,
   #item-search select,
   #item-search label {

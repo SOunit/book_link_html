@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- style sheets -->
     <link rel="stylesheet" href="shared.css" />
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
     <div class="backdrop"></div>
     <div class="background"></div>
+    <!-- header -->
     <header class="main-header">
       <div>
         <a href="#" class="main-header__brand">book-link</a>
@@ -37,6 +46,7 @@
         </ul>
       </nav>
     </header>
+    <!-- mobile nav -->
     <nav class="mobile-nav">
       <ul class="mobile-nav__items">
         <li class="mobile-nav__item">
@@ -53,22 +63,24 @@
         </li>
       </ul>
     </nav>
+    <!-- main -->
     <main>
       <article id="search">
+        <!-- book search -->
         <section id="item-search">
-          <h2 class="section__title">Item Search</h2>
-          <form action="#">
-            <label for="title">Title</label>
-            <input type="text" id="title" />
-            <label for="category">Category</label>
-            <select name="" id="category">
-              <option value="1">Comic</option>
-              <option value="2">Novel</option>
-              <option value="3">Movie</option>
-            </select>
-            <button class="button">Item Search</button>
+          <form action="#" class="item-search__form">
+            <input
+              class="item-search__title-input"
+              type="text"
+              id="title"
+              placeholder="Search book"
+            />
+            <button class="item-search__icon">
+              <i class="fas fa-search"></i>
+            </button>
           </form>
         </section>
+        <!-- book result -->
         <section>
           <h2>Item Result</h2>
           <ul class="item-results">

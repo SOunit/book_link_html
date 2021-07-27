@@ -2,13 +2,12 @@
   background-color: rgba(255, 255, 255, 0.75);
   width: 90%;
   margin: 1rem auto;
-  border-radius: 16px;
   padding: 1rem;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #ddd;
 }
 
 .background {
-  background: url('images/background-book.jpg') center/cover;
+  /* background: url('images/background-book.jpg') center/cover; */
   position: fixed;
   top: 43px;
   left: 0;
@@ -18,37 +17,33 @@
   filter: grayscale(0.75);
 }
 
-.section__title {
-  text-align: center;
+.item-search__form {
+  position: relative;
+  max-width: 30rem;
+  margin: 0 auto;
 }
 
-#item-search input,
-#item-search select,
-#item-search label {
+.item-search__title-input {
+  padding-left: 1rem;
   display: block;
   width: 100%;
-  padding: 0.5rem;
-  margin: 0.5rem 0;
-  font-family: inherit;
-  font-size: 1rem;
+  padding: 0.5rem 1rem 0.5rem 2.5rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #e9e9e9;
 }
 
-#item-search label {
-  font-weight: bold;
-  padding: 0.5rem;
-  margin: 0.5rem;
-}
-
-#item-search input:focus,
-#item-search select:focus {
-  outline: none;
-  border-color: #0e4f1f;
-  background-color: #d8f3df;
-}
-
-#item-search button {
-  margin: 0 auto;
-  padding: 0.5rem 2rem;
+.item-search__icon {
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 1rem;
+  border: none;
+  height: 2.5rem;
+  color: #888;
 }
 
 .item-results {
@@ -88,14 +83,6 @@
 @media (min-width: 40rem) {
   #search section {
     width: 80%;
-  }
-
-  #item-search input,
-  #item-search select,
-  #item-search label {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .item-results {

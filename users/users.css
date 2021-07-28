@@ -1,0 +1,44 @@
+#user-summary {
+  padding: 0.5rem;
+}
+
+.user-summary__icon {
+  display: flex;
+}
+
+.user-summary__icon .image-container {
+  height: 10rem;
+  width: 10rem;
+  overflow: hidden;
+  border-radius: 10%;
+}
+
+.user-summary__icon img {
+  width: 100%;
+}
+
+.user-summary__details {
+  flex-grow: 1;
+  margin: 0 0.5rem;
+}
+
+.user-summary__name,
+.user-summary__number {
+  font-weight: bold;
+}
+
+.user-summary__following,
+.user-summary__followers,
+.user-summary__request {
+  color: var(--text-grey);
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+
+.user-summary__comment {
+  border: none;
+  margin: 0.5rem 0;
+  background-color: var(--light-green);
+  padding: 1rem;
+  border-radius: 12px;
+}

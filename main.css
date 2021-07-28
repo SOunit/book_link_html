@@ -106,8 +106,10 @@
   text-align: center;
 }
 
-.user-result__actions button {
+.user-result__actions button,
+.user-result__actions a.button {
   display: inline-block;
+  text-decoration: none;
 }
 
 @media (min-width: 40rem) {

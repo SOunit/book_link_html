@@ -62,3 +62,10 @@
   background-color: rgb(64, 140, 255);
   color: white;
 }
+
+@media (min-width: 40rem) {
+  .chat__lines {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+}

@@ -42,6 +42,7 @@ main {
   font-weight: bold;
   cursor: pointer;
   font-size: 0.9rem;
+  text-decoration: none;
 }
 
 .delete-button {

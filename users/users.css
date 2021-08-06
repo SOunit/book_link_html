@@ -43,6 +43,13 @@
   border-radius: 12px;
 }
 
+.user-actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem;
+}
+
 .user-books__book-container {
   display: grid;
   grid-template-columns: 1fr 1fr;

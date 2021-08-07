@@ -9,13 +9,13 @@
   border-bottom: 1px solid var(--light-grey);
 }
 
-.item-search__form {
+.search-form {
   position: relative;
   max-width: 30rem;
   margin: 0 auto;
 }
 
-.item-search__title-input {
+.search-form__input {
   padding-left: 1rem;
   display: block;
   width: 95%;
@@ -27,7 +27,7 @@
   background-color: var(--dark-grey);
 }
 
-.item-search__icon {
+.search-form__icon {
   background-color: transparent;
   padding: 0;
   margin: 0;

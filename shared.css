@@ -181,6 +181,10 @@ main {
   color: var(--text-grey);
 }
 
+.image-container {
+  background-color: var(--light-grey);
+}
+
 .image-container img {
   width: 100%;
 }

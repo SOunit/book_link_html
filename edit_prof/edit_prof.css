@@ -50,28 +50,37 @@
   margin: 1rem;
 }
 
-.user-books__book-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 0.5rem;
-  margin: 0 auto;
-  width: 95%;
+#edit-form {
+  padding: 0.5rem;
 }
 
-.user-books__image-container img {
+.edit-form__input-container {
+  border-bottom: 1px solid var(--light-grey);
   width: 100%;
+  margin: 0 auto 2rem auto;
+  padding-bottom: 1rem;
+}
+
+.edit-form__input {
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.edit-form__label {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
 }
 
 @media (min-width: 40rem) {
   #user-summary,
-  #user-books,
+  #edit-form,
   #user-actions {
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  .user-books__book-container {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

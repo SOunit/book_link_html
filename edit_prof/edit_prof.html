@@ -14,7 +14,7 @@
     />
     <!-- style sheets -->
     <link rel="stylesheet" href="../shared.css" />
-    <link rel="stylesheet" href="users.css" />
+    <link rel="stylesheet" href="./edit_prof.css" />
   </head>
   <body>
     <div class="backdrop"></div>
@@ -84,28 +84,26 @@
             dicta culpa provident!
           </p>
         </section>
-        <section id="user-actions">
-          <div class="user-actions">
-            <a href="../edit_prof/edit_prof.html" class="button"
-              >Edit Profile</a
+        <section id="edit-form">
+          <div class="edit-form__input-container">
+            <label class="edit-form__label" for="name">Name</label>
+            <input class="edit-form__input" type="text" id="name" />
+          </div>
+          <div class="edit-form__input-container">
+            <label class="edit-form__label" for="prof_image"
+              >Profile Image</label
             >
-            <a href="#" class="button">Edit Items</a>
+            <input class="edit-form__input" type="file" id="prof_image" />
+          </div>
+          <div class="edit-form__input-container">
+            <label class="edit-form__label" for="about">About</label>
+            <input class="edit-form__input" type="text" id="about" />
           </div>
         </section>
-        <section id="user-books">
-          <div class="user-books__book-container">
-            <div class="user-books__image-container">
-              <img src="../images/comic1.jpg" alt="comic1" />
-            </div>
-            <div class="user-books__image-container">
-              <img src="../images/comic2.jpg" alt="comic2" />
-            </div>
-            <div class="user-books__image-container">
-              <img src="../images/comic3.jpg" alt="comic3" />
-            </div>
-            <div class="user-books__image-container">
-              <img src="../images/comic4.jpg" alt="comic4" />
-            </div>
+        <section id="user-actions">
+          <div class="user-actions">
+            <a href="../home/home.html" class="button">Cancel</a>
+            <a href="../home/home.html" class="button">Update</a>
           </div>
         </section>
       </article>

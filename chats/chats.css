@@ -1,3 +1,48 @@
-#chat-search {
+#chat-search,
+#chat-history {
   margin-top: 2rem;
+}
+
+.chat-lines {
+  margin: 0 0.3rem;
+}
+
+.chat-line {
+  margin: 1rem 0;
+}
+
+.chat-line__link-box {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+}
+
+.chat-line .image-container {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0.3rem;
+}
+
+.chat-line__text-box {
+  flex-grow: 1;
+  margin: 0 0.3rem;
+}
+
+.chat-line__name {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.chat-line__message {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.chat-line__time-box {
+  margin: 0.3rem;
+  font-size: 0.8rem;
 }

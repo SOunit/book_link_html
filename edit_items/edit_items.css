@@ -1,0 +1,10 @@
+.item-search__link-container {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.item-search__link-container a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}

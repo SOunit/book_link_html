@@ -1,0 +1,18 @@
+.user-summary__icon .image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: var(--text-grey);
+  border-radius: 0px;
+  height: 12rem;
+}
+
+.new-item__title {
+  margin: 0.5rem;
+}
+
+.new-item__author-name {
+  font-weight: normal;
+  margin: 0.5rem;
+}

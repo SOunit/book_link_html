@@ -28,8 +28,7 @@
 }
 
 .user-summary__following,
-.user-summary__followers,
-.user-summary__request {
+.user-summary__followers {
   color: var(--text-grey);
   font-size: 0.8rem;
   margin: 0.5rem 0;

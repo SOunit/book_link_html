@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>book-link</title>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- style sheets -->
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="stylesheet" href="./edit_items.css" />
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <!-- header -->
+    <header class="main-header">
+      <div>
+        <a href="../index.html" class="main-header__brand">book-link</a>
+      </div>
+      <button class="sidebar-button">
+        <span class="sidebar-button__bar"></span>
+        <span class="sidebar-button__bar"></span>
+        <span class="sidebar-button__bar"></span>
+      </button>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="../index.html">Search</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../chats/chats.html">Chats</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="../home/home.html">Home</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- mobile nav -->
+    <nav class="mobile-nav">
+      <ul class="mobile-nav__items">
+        <li class="mobile-nav__item">
+          <a href="../index.html">Search</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="../chats/chats.html">Chats</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="../home/home.html">Home</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- main -->
+    <main>
+      <article id="item-search">
+        <!-- current items -->
+        <section>
+          <h2 class="section-title">Your Items</h2>
+          <ul class="item-results">
+            <li class="item-result">
+              <img src="../images/comic1.jpg" alt="comic1" />
+              <div class="item-result__details">
+                <p class="item-result__title">魔女1</p>
+                <p>五十嵐大介</p>
+                <button class="button delete-button">Delete</button>
+              </div>
+            </li>
+            <li class="item-result">
+              <img src="../images/comic2.jpg" alt="comic2" />
+              <div class="item-result__details">
+                <p class="item-result__title">魔女2</p>
+                <p>五十嵐大介</p>
+                <button class="button delete-button">Delete</button>
+              </div>
+            </li>
+            <li class="item-result">
+              <img src="../images/comic3.jpg" alt="comic3" />
+              <div class="item-result__details">
+                <p class="item-result__title">Number Five</p>
+                <p>Taiyo Matsumoto</p>
+                <button class="button delete-button">Delete</button>
+              </div>
+            </li>
+            <li class="item-result">
+              <img src="../images/comic4.jpg" alt="comic4" />
+              <div class="item-result__details">
+                <p class="item-result__title">Sunny</p>
+                <p>Taiyo Matsumoto</p>
+                <button class="button delete-button">Delete</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- book search -->
+        <section id="item-search">
+          <h2 class="section-title">Add new Items</h2>
+          <form action="#" class="search-bar">
+            <input
+              class="search-bar__input"
+              type="text"
+              id="title"
+              placeholder="Search book"
+            />
+            <button class="search-bar__icon">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+          <div class="item-search__link-container">
+            <a href="#">Create new Item ></a>
+          </div>
+        </section>
+        <!-- book result -->
+        <section id="item-result">
+          <ul class="item-results">
+            <li class="item-result">
+              <img src="../images/comic1.jpg" alt="comic1" />
+              <div class="item-result__details">
+                <p class="item-result__title">魔女1</p>
+                <p>五十嵐大介</p>
+                <button class="button">Add</button>
+              </div>
+            </li>
+            <li class="item-result">
+              <img src="../images/comic2.jpg" alt="comic2" />
+              <div class="item-result__details">
+                <p class="item-result__title">魔女2</p>
+                <p>五十嵐大介</p>
+                <button class="button">Add</button>
+              </div>
+            </li>
+            <li class="item-result">
+              <img src="../images/comic3.jpg" alt="comic3" />
+              <div class="item-result__details">
+                <p class="item-result__title">ナンバーファイブ 吾</p>
+                <p>松本大洋</p>
+                <button class="button">Add</button>
+              </div>
+            </li>
+            <li class="item-result">
+              <img src="../images/comic4.jpg" alt="comic4" />
+              <div class="item-result__details">
+                <p class="item-result__title">Sunny</p>
+                <p>松本大洋</p>
+                <button class="button">Add</button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <script src="../shared.js"></script>
+  </body>
+</html>

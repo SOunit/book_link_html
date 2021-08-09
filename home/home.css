@@ -1,0 +1,5 @@
+.home__following a,
+.home__followers a {
+  text-decoration: none;
+  color: inherit;
+}
